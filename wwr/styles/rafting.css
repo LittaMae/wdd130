@@ -16,13 +16,13 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
-    font-weight: bolder;
+    font-weight: bold;
     text-align: center;
 }
 p {
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
-    font-weight: bolder;
+    font-weight: bold;
 }
 a {
     text-decoration: none;
@@ -41,18 +41,23 @@ body {
 }
 .hero h1 {
     position: absolute;
-    top: 20px;
+    top: 180px;
     left: 500px
 
 }
 .stats {
     position: absolute;
-    top: 100px;
-    font-weight: bold;
+    top: 250px;
+    /*font-weight: bold;*/
+    background-color: #E87461;
+    opacity: 90%;
 }
 .stats img {
     float: right;
     width: 200px;
     height: auto;
     opacity: 100%
+}
+.stats p {
+    font-weight: bold;
 }
