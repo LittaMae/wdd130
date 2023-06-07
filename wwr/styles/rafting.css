@@ -46,8 +46,7 @@ body {
 }
 .stats {
     position: absolute;
-    top: 250px;
-    /*font-weight: bold;*/
+    top: 400px;
     background-color: #E87461;
     opacity: 90%;
 }
