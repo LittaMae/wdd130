@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dosis&display=swap');
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #84DCC6;
+    --accent1-color: #4B4E6D;
+    --accent2-color: #E87461;
+
+    --heading-font: "Courgette", handwriting;
+    --paragraph-font: "Dosis", sansserif;
+
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #4B4E6D;
+    --nav-hover-link-color: #E87461;
+    --nav-hover-background-color: #84DCC6;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    font-weight: bolder;
+    text-align: center;
+}
+p {
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+}
+body {
+    max-width: 1500px;
+}
+.hero {
+    position: relative
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 30%;
+}
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 500px
+
+}
+.stats {
+    position: absolute;
+    top: 100px;
+    font-weight: bold;
+}
+.stats img {
+    float: right;
+    width: 200px;
+    height: auto;
+    opacity: 100%
+}
