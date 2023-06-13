@@ -27,28 +27,28 @@ p {
 a {
     text-decoration: none;
 }
-body {
-    max-width: 1500px;
-}
 .hero {
-    position: relative
+    position: relative;
 }
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-    opacity: 30%;
+    opacity: 40%;
 }
 .hero h1 {
     position: absolute;
-    top: 250px;
-    left: 650px;
+    top: 50px;
+    left: 310px;
 }
 .stats {
     position: absolute;
-    top: 400px;
+    max-width: 780px;
+    margin-left: 30px;
+    top: 150px;
     background-color: #E87461;
     opacity: 90%;
+    place-content: center;
 }
 .stats img {
     float: right;
@@ -58,4 +58,57 @@ body {
 }
 .stats p {
     font-weight: bold;
+    padding-left: 15px;
+}
+header {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.websitelinks a {
+    padding: 15px;
+}
+.websitelinks a:hover {
+    color: var(--nav-hover-link-color);
+    text-decoration: underline;
+}
+header, .grid, footer {
+    max-width: 840px;
+    margin: 1rem auto;
+}
+.sociallinks nav {
+    display: flex;
+}
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: right;
+}
+.images {
+    background-color: var(--secondary-color);
+    padding: 5px;
+}
+.images img {
+    width: 150px;
+    border-radius: 20px;
+}
+.images div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    place-content: center;
+}
+.stats2 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 5px;
+}
+.stats2 img {
+    padding: 15px;
+    border-radius: 40px;
+}
+figure {
+    padding:9px;
+    margin:0;
 }
