@@ -16,6 +16,10 @@ nav a {
     padding: 10px;
     text-decoration: none;
 }
+nav a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
 h1 {
     color: steelblue;
     border-bottom: 1px solid black;
@@ -54,6 +58,11 @@ footer {
     padding: 1.5rem;
     background-color: #f0f9fc;
     color: #3c346c;
+}
+.box a:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
 }
 aside h2 {
     position: absolute;
