@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    width: 600px;
+}
+header {
+    padding: 10px;
+    color: blue;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+body {
+    font-family: Dosis, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 1.1em;
+    padding: 25px;
+}
+form {
+    background-color: lightgray;
+    padding: 15px;
+    width: 640px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+}
+button, textarea, input, select {
+    font-family: Dosis, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+}
+button {
+    border-radius: 5px;
+    background-color: rgb(207, 230, 245);
+    padding: 5px;
+}
+button:hover {
+    background-color: rgb(86, 123, 245);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+}

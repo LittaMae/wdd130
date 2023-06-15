@@ -54,6 +54,9 @@ a {
     float: right;
     width: 200px;
     height: auto;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 10px;
     opacity: 100%
 }
 .stats p {
@@ -111,4 +114,5 @@ footer {
 figure {
     padding:9px;
     margin:0;
+    text-align: center;
 }
