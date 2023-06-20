@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us page for WDD130 class to let clients know the contact information for the White Water Rafting Company.">
+    <meta name="author" content="Tammi Enkey">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us Page</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/logo.png" alt="White Water Rafting Logo" width="100">
+        </div>
+        <nav class="websitelinks">
+            <a href="../index.html" target="blank">Home</a>
+            <a href="about.html" target="blank">About Us</a>
+            <a href="trips.html" target="blank">Trips</a>
+            <a href="contact.html" target="blank">Contact Us</a>
+        </nav>
+    </header>
+    <div class="grid">
+        <main>
+            <div class="hero">
+                <img src="images/background.jpg" alt="White Water Rafting Background">
+                <h1>Carolina Rafting</h1>
+                <article class="stats">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247566.9613921324!2d-83.63012705159642!3d35.38581507296374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8859485dcff22a55%3A0x8489c3ad289b7785!2sBryson%20City%2C%20NC%2028713!5e0!3m2!1sen!2sus!4v1686945671578!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <h2>Contact Us</h2>
+                    <h3>Address:</h3>
+                    <p>115 Hickory St.</p>
+                    <p>West Bryson City, North Carolina 28713</p>
+                    <h3>Phone Number:</h3>
+                    <p>1 - 252 - 555 - 5555</p>
+                    <h3>Email:</h3>
+                    <a href="mailto:carolinarafting.rafting.com">carolinarafting@rafting.com</a>             
+                </article>
+            </div>
+            <section class="form">
+                <h2>Contact Us for More Information</h2>
+                <form>
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" id="fullname" name="fullname"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="useremail" name="useremail">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Leave a Message Here</legend>
+                        <label for="purpose">What is the purpose of your message?</label>
+                        <label for="generalinquiry">General Inquiry</label>
+                        <input type="radio" id="generalinquiry" name="generalinquiry">
+                        <label for="reservationquestion">Reservation Question</label>
+                        <input type="radio" id="reservationquestion" name="reservationquestion">
+                        <label for="websitesuggestion">Website Suggestion</label>
+                        <input type="radio" id="websitesuggestion" name="websitesuggestion"><br>
+                        <label for="message">Type your message here:</label>
+                        <textarea id="message" name="message" rows="4"></textarea><br>
+                        <label for="newsletter">Please subscribe me to the monthly newsletter.</label>
+                        <input type="checkbox" id="newsletter" name="newsletterr"><br>
+                    </fieldset>
+                    <button type="submit">Submit Message</button>
+                </form>
+            </section>
+            <section class="employees">
+                <h2>Meet Our Employees!</h2>
+                <div>
+                    <figure>
+                        <img src="images/employee2.jpg" alt="Happy Employee">
+                        <figcaption>Paul</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/employee0.jpg" alt="Happy Employee">
+                        <figcaption>Megan</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/employee3.jpg" alt="Happy Employee">
+                        <figcaption>Rachel</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2023 | Carolina Rafting | Tammi Enkey</p>
+        <div>
+            <nav class="sociallinks">
+                <a href="https://facebook.com" target="blank">
+                    <img src="images/facebook.png" alt="Facebook" width="50">
+                </a>
+                <a href="https://twitter.com" target="blank">
+                    <img src="images/twitter.png" alt="Twitter" width="50">
+                </a>
+                <a href="https://instagram.com" target="blank">
+                    <img src="images/instagram.png" alt="Instagram" width="50">
+                </a>
+            </nav>
+        </div>
+    </footer>    
+</body>
+</html>
