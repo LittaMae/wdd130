@@ -192,12 +192,11 @@ input[type="radio"] {
 button {
     margin: 1rem;
     background-color: var(--accent2-color);
-    color: var(--accent1-color);
+    color: black;
     border: none;
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
-    font-weight: bold;
 }
 button:hover {
     background-color: var(--nav-hover-background-color);
