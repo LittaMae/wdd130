@@ -251,3 +251,6 @@ th, td {
 .pricing {
     padding: 5px;
 }
+th {
+   font-size: larger;
+}
