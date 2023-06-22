@@ -202,4 +202,27 @@ button {
 button:hover {
     background-color: var(--nav-hover-background-color);
 }
-
+.trips a {
+    font-weight: bolder;
+    padding: 130px;
+    font-size: 2rem;
+    vertical-align: center;
+}
+.stats3 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 5px;
+}
+.stats3 img {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+.stats3 p {
+    font-size: 1rem;
+    text-align: center;
+}
+.pricing {
+    background-color: var(--nav-hover-background-color);
+}
