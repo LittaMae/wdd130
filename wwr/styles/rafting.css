@@ -161,7 +161,8 @@ figure {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     background-color: #eee;
-    display: grid;}
+    display: grid;
+}
 fieldset {
     display: grid;
     grid-gap: .4rem;
@@ -177,7 +178,7 @@ legend {
     font-weight: bolder;
 }
 label, input, button, select, textarea {
-    font-family: Dosis, Arial, sans-serif;
+    font-family: var(--paragraph-font);
 }
 input[type="checkbox"] {
     width: 15px;
@@ -225,4 +226,28 @@ button:hover {
 }
 .pricing {
     background-color: var(--nav-hover-background-color);
+}
+table {
+    width: 650px;
+    margin: 25px auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #eee;
+    display: grid;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid var(--accent1-color);
+}
+th, td {
+    width: 120px;
+    height: 30px;
+    color: var(--accent1-color);
+    font-weight: bolder;
+    font-family: var(--paragraph-font);
+    border-radius: 5px;
+}
+.pricing {
+    padding: 5px;
 }
