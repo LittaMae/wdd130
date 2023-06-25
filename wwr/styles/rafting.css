@@ -254,3 +254,50 @@ th, td {
 th {
    font-size: larger;
 }
+.fun a {
+    font-weight: bolder;
+    padding: 130px;
+    font-size: 2rem;
+    vertical-align: center;
+}
+.home {
+    position: relative;
+}
+.home img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+}
+.home h1 {
+    position: absolute;
+    top: 50px;
+    left: 310px;
+}
+.homefun a {
+    font-weight: bolder;
+    font-family: var(--paragraph-font);
+    font-size: 2.5rem;
+    color: var(--accent1-color);
+    position: absolute;
+    bottom: 190px;
+    left: 280px;
+}
+.homefun a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.index div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 5px;
+    background-color: var(--accent2-color);
+}
+.index img {
+    padding: 15px;
+    border-radius: 40px;
+}
+.index p {
+    font-size: larger;
+}
