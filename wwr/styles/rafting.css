@@ -26,6 +26,9 @@ p {
 }
 a {
     text-decoration: none;
+    font-family: var(--paragraph-font);
+    font-size: larger;
+    font-weight: bolder;
 }
 .hero {
     position: relative;
