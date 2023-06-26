@@ -52,6 +52,7 @@ a {
     background-color: #E87461;
     opacity: 90%;
     place-content: center;
+    border-radius: 20px;
 }
 .stats img {
     float: right;
@@ -60,7 +61,7 @@ a {
     padding-top: 20px;
     padding-right: 15px;
     padding-left: 10px;
-    opacity: 100%
+    opacity: 100%;
 }
 .stats {
     font-weight: bold;
@@ -212,6 +213,7 @@ button:hover {
     font-size: 2rem;
     vertical-align: center;
 }
+
 .stats3 div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -221,7 +223,7 @@ button:hover {
 .stats3 img {
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 .stats3 p {
     font-size: 1rem;
@@ -270,7 +272,7 @@ th {
     display: block;
     width: 100%;
     height: auto;
-    opacity: 50%;
+    opacity: 80%;
 }
 .home h1 {
     position: absolute;
