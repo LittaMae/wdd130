@@ -307,3 +307,11 @@ th {
 .index p {
     font-size: larger;
 }
+footer a:hover {
+    color: var(--accent2-color);
+    font-weight: bolder;
+}
+footer a {
+    color: var(--accent1-color);
+    text-decoration: underline;
+}
