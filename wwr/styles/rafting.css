@@ -110,6 +110,10 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     place-content: center;
 }
+.images figcaption {
+    font: var(--paragraph-font);
+    font-size: 18px;
+}
 .stats2 div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -151,6 +155,10 @@ figure {
     background-color: var(--secondary-color);
     padding: 5px;
 }
+.employees figcaption {
+    font: var(--paragraph-font);
+    font-size: 20px;
+}
 .employees img {
     width: 150px;
     height: 200px;
@@ -186,6 +194,7 @@ legend {
 }
 label, input, button, select, textarea {
     font-family: var(--paragraph-font);
+    font-size: larger;
 }
 label, input, select, textarea {
     height: 25px;
@@ -202,7 +211,7 @@ input[type="radio"] {
 }
 button {
     margin: 1rem;
-    background-color: var(--accent2-color);
+    background-color: var(--nav-hover-background-color);
     color: var(--accent1-color);
     border: none;
     border-radius: .5rem;
@@ -211,7 +220,7 @@ button {
     font-weight: bold;
 }
 button:hover {
-    background-color: var(--nav-hover-background-color);
+    background-color: var(--accent2-color);
 }
 .trips a {
     font-weight: bolder;
@@ -283,10 +292,11 @@ th {
 .home h1 {
     position: absolute;
     top: 50px;
-    left: 310px;
+    left: 250px;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
+    font-size: 3rem;
 }
 .homefun a {
     font-weight: bolder;
@@ -306,14 +316,15 @@ th {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     padding: 5px;
-    background-color: var(--accent2-color);
+    background-color: var(--nav-hover-background-color);
 }
 .index img {
     padding: 15px;
     border-radius: 40px;
 }
 .index p {
-    font-size: larger;
+    font-size: 1.4rem;
+    font-weight: bolder;
 }
 footer a:hover {
     color: var(--accent2-color);
